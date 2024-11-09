@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write \"{Commands,CommandsPrefix,Events,Functions,Handlers,Models,Schemas,utils}/**/*.{js,json,css,md}\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -48,6 +51,14 @@
     "twemoji-parser": "^14.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "@eslint/eslintrc": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "husky": "^8.0.0"
   }
 }
