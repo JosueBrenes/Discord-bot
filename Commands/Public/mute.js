@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { roleIdMute } = require('../../config.json');
+const { muteIsolatedRole } = require('../../config.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -91,7 +92,6 @@ module.exports = {
             return interaction.reply({ embeds: [embedMuteYourself], ephemeral: true });
         }
 
-        const muteIsolatedRole = interaction.guild.roles.cache.get('1304479815822217418');
         if (!muteIsolatedRole) {
             const embedRoleNotFound = new EmbedBuilder()
                 .setColor('#FF0000') 
