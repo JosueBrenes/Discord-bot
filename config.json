@@ -1,0 +1,18 @@
+{
+    "token": "YOUR_DISCORD_BOT_TOKEN",
+    "mongopass": "YOUR_MONGODB_CONNECTION_STRING",
+    "clientId": "YOUR_CLIENT_ID",
+    "guildId": "YOUR_GUILD_ID",
+
+    "webhookIssue": "YOUR_ISSUE_WEBHOOK_URL",
+    "webhookAntiCrash": "YOUR_ANTI_CRASH_WEBHOOK_URL",
+
+    "roleIdBan": "YOUR_BAN_ROLE_ID",
+    "roleIdClear": "YOUR_CLEAR_ROLE_ID",
+    "roleIdCW": "YOUR_CW_ROLE_ID",
+    "roleIdMute": "YOUR_MUTE_ROLE_ID",
+    "roleIdWarn": "YOUR_WARN_ROLE_ID",
+    "roleIdWarnings": "YOUR_WARNINGS_ROLE_ID",
+    "roleIdAdmin": "YOUR_ADMIN_ROLE_ID",
+    "roleDevId": "YOUR_DEVELOPER_ROLE_ID"
+}
